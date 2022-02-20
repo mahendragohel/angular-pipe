@@ -1,4 +1,4 @@
-import { Component, VERSION } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
@@ -6,7 +6,6 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'Angular ' + VERSION.major;
-
+  sortBy = 'desc';
   items = [{ key: 'aaa' }, { key: 'bbb' }, { key: 'ccc' }, { key: 'ddd' }];
 }
